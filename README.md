@@ -1,24 +1,82 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+# AI Finance Platform
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+A comprehensive AI-powered financial management platform that helps users track income, expenses, and budgets with intelligent automation.
 
-### Make sure to create a `.env` file with following variables -
+## Technologies Used
 
+### Front-End
+- **Next.js** - React-based framework for building the web application.
+- **Tailwind CSS** - Utility-first CSS framework for styling.
+- **Shadcn UI** - Pre-built, customizable UI components.
+- **React Hook Form** - Form management for better user interactions.
+- **Zod** - Schema validation and runtime type-checking.
+
+### Back-End
+- **Node.js** - JavaScript runtime for server-side logic.
+- **Prisma** - ORM for seamless database interactions.
+- **Database** - Likely PostgreSQL or a similar relational database.
+
+### AI and Services
+- **Gemini AI** - AI-powered features like receipt scanning and financial insights.
+- **Clerk** - Secure user authentication service.
+- **Resend** - Email service for notifications.
+- **Arcjet** - Bot protection to prevent spam and abuse.
+- **Ingest** - Cron job management for automated tasks.
+
+### Deployment
+- **Vercel** - Cloud platform for deploying the front-end application.
+
+## Features
+
+### Financial Tracking
+- Track income and expenses across multiple accounts.
+- Manage transactions: view, filter, edit, and bulk delete.
+- Recurring transaction management for automated financial tracking.
+
+### AI-Powered Features
+- AI-powered transaction categorization.
+- AI receipt scanning for automatic data entry.
+- AI-generated monthly financial reports with personalized insights.
+
+### Budget Management
+- Set and track budgets with real-time monitoring.
+- Receive email alerts when budgets reach predefined thresholds.
+
+### User Interface
+- Professional landing page with animations and testimonials.
+- Interactive dashboard with dynamic charts and data visualizations.
+- User account management for secure and personalized experiences.
+
+### Automation
+- Automated Cron jobs for recurring tasks like generating monthly reports.
+
+### Security
+- Bot protection via **Arcjet** to prevent malicious attacks.
+- Secure user authentication using **Clerk**.
+
+### Form Handling
+- Advanced form management using **React Hook Form** and **Zod** for validation.
+
+## Getting Started
+Clone the repository and follow the setup instructions to run the platform locally.
+
+```bash
+# Clone the repository
+git clone https://github.com/piyush-eon/ai-finance-platform.git
+
+# Navigate to the project directory
+cd ai-finance-platform
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
 ```
-DATABASE_URL=
-DIRECT_URL=
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+## License
+This project is licensed under the MIT License.
 
-GEMINI_API_KEY=
+---
 
-RESEND_API_KEY=
-
-ARCJET_KEY=
-```
+> AI Finance Platform: Smarter financial tracking with AI-driven insights and automation.
